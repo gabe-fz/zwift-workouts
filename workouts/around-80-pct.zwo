@@ -1,0 +1,14 @@
+<workout_file>
+  <author>GitHub Copilot</author>
+  <name>80ish % 80min</name>
+  <description>5 min warmup, 80 min at 80% FTP, 2 min cooldown.</description>
+  <sportType>bike</sportType>
+  <tags>
+    <tag name="Endurance" />
+  </tags>
+  <workout>
+    <Warmup Duration="300" PowerLow="0.50" PowerHigh="0.60" />
+    <SteadyState Duration="4800" Power="0.80" />
+    <Cooldown Duration="120" PowerLow="0.40" PowerHigh="0.50" />
+  </workout>
+</workout_file>

@@ -1,0 +1,19 @@
+<workout_file>
+  <name>VO2 Max Intervals - 30on/20off x 16 x 3</name>
+  <description>3x 16-interval sets of 30s on/20s off at 130% FTP to boost VO2 max and anaerobic capacity.</description>
+  <author>ChatGPT Custom Zwift Plan</author>
+  <sportType>bike</sportType>
+  <tags>
+    <tag>vo2max</tag>
+    <tag>intervals</tag>
+  </tags>
+  <workout>
+    <Ramp Duration="360" PowerLow="0.5" PowerHigh="0.7"/>
+    <IntervalsT Repeat="16" OnDuration="30" OnPower="1.3" OffDuration="20" OffPower="0.4"/>
+    <SteadyState Duration="360" Power="0.5"/>
+    <IntervalsT Repeat="16" OnDuration="30" OnPower="1.3" OffDuration="20" OffPower="0.4"/>
+    <SteadyState Duration="360" Power="0.5"/>
+    <IntervalsT Repeat="16" OnDuration="30" OnPower="1.3" OffDuration="20" OffPower="0.4"/>
+    <Ramp Duration="120" PowerLow="0.6" PowerHigh="0.4"/>
+  </workout>
+</workout_file>
