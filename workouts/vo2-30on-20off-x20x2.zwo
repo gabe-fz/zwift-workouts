@@ -12,6 +12,6 @@
     <IntervalsT Repeat="20" OnDuration="30" OnPower="1.3" OffDuration="20" OffPower="0.4"/>
     <SteadyState Duration="360" Power="0.5"/>
     <IntervalsT Repeat="20" OnDuration="30" OnPower="1.3" OffDuration="20" OffPower="0.4"/>
-    <Ramp Duration="180" PowerLow="0.6" PowerHigh="0.4"/>
+    <Ramp Duration="120" PowerLow="0.6" PowerHigh="0.4"/>
   </workout>
 </workout_file>

@@ -1,6 +1,6 @@
 <workout_file>
   <author>GitHub Copilot</author>
-  <name>80ish % 80min</name>
+  <name>~80%</name>
   <description>5 min warmup, 80 min at 80% FTP, 2 min cooldown.</description>
   <sportType>bike</sportType>
   <tags>
