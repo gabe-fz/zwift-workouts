@@ -1,0 +1,14 @@
+<workout_file>
+    <author>Gemini AI</author>
+    <name>Thursday: Interval Spike</name>
+    <description>4 x 4 min at 108% FTP. High intensity for weight loss. Follow with Strength Session B: Decline Pushups, Rows, and Leg Raises.</description>
+    <sportType>bike</sportType>
+    <tags></tags>
+    <workout>
+        <Warmup Duration="300" PowerLow="0.4" PowerHigh="0.85">
+            <textevent timeoffset="600" message="Prepare for 3x30s openers"/>
+        </Warmup>
+        <IntervalsT Repeat="4" OnDuration="240" OffDuration="240" OnPower="1.08" OffPower="0.5" />
+        <Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.4" />
+    </workout>
+</workout_file>
