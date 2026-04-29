@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workout_file>
+  <author>GitHub Copilot</author>
+  <name>~75%</name>
+  <description>5 min warmup, 30 min at 75% FTP, 3 min freestyle break, 50 min at 75% FTP.</description>
+  <sportType>bike</sportType>
+  <tags>
+    <tag name="Endurance" />
+  </tags>
+  <workout>
+    <Warmup Duration="300" PowerLow="0.50" PowerHigh="0.60" />
+    <SteadyState Duration="1800" Power="0.75" />
+    <FreeRide Duration="180" />
+    <SteadyState Duration="3000" Power="0.75" />
+  </workout>
+</workout_file>
