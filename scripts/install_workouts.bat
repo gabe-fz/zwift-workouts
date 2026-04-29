@@ -1,13 +1,13 @@
 @echo off
 REM Copy all workouts to each Zwift user custom workouts directory on Windows.
 REM Zwift stores user-specific workouts under:
-REM   %USERPROFILE%\Documents\Zwift\Workouts\<zwift_user_id>\
+REM   %USERPROFILE%\AppData\Local\Zwift\Workouts\<zwift_user_id>\
 REM This script will replicate the workouts into every user id folder.
 
 setlocal enabledelayedexpansion
 
 set "SOURCE_DIR=%~dp0..\workouts"
-set "ZWIFT_WORKOUTS_ROOT=%USERPROFILE%\Documents\Zwift\Workouts"
+set "ZWIFT_WORKOUTS_ROOT=%USERPROFILE%\AppData\Local\Zwift\Workouts"
 
 if not exist "%ZWIFT_WORKOUTS_ROOT%" (
   echo Zwift workouts root not found: %ZWIFT_WORKOUTS_ROOT% >&2
